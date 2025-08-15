@@ -1,0 +1,127 @@
+/* resources/css/custom.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Hero Section */
+.hero-section {
+    background-color: #f7d2d3; 
+    color: #000;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.navbar-brand{
+    font-family: 'Playfair Display';
+    color: #9B4141;
+}
+
+/* Navbar */
+.navbar-nav .nav-link {
+    color: #000 !important;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color:  #9B4141;
+    border-color: #343a40;
+    font-family: 'Poppins';
+    font-size: 1.1rem;
+}
+
+/* Tombol */
+.btn-dark {
+    background-color:  #9B4141;
+    border-color: #343a40;
+    color: #fff;
+}
+.btn-outline-dark {
+    border-color: #343a40;
+    color: #343a40;
+}
+
+/* Highlight Keunggulan */
+.mengapa-kami {
+    font-family: 'Playful Display';
+}
+.keunggulan-section h2, .keunggulan-section h5 {
+    color: #9B4141;
+    font-family: 'Playfair Display';
+    font-weight: 300;
+}
+.keunggulan-section .fa-3x {
+    color: #9B4141; 
+}
+
+/* Produk */
+.best-seller-section h2, .flash-sale-section h2 {
+    color: #9B4141;
+    font-family: 'Playfair Display';
+}
+.card-text.harga {
+    color: #9B4141; /* Merah untuk harga */
+    font-weight: 700;
+}
+
+/* Flash Sale */
+.flash-sale-section {
+    background-color: #f8f9fa; /* Warna abu-abu muda */
+}
+.flash-sale-badge {
+    background-color: #9B4141; /* Merah */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+.flash-sale-timer {
+    font-weight: 700;
+    color: #9B4141; /* Merah */
+}
+
+/* Penilaian Produk */
+.penilaian-section h2 {
+    color: #343a40;
+}
+.rating-item {
+    font-size: 0.9rem;
+}
+/* resources/css/custom.css */
+.penilaian-produk {
+    font-family: 'Playfair Display';
+}
+
+.penilaian-produk .badge {
+    border-radius: 25px;
+}
+
+.penilaian-produk .badge.bg-secondary {
+    background-color: #e9ecef !important;
+    color: #6c757d;
+}
+
+.penilaian-produk .card {
+    border-radius: 10px;
+}
+
+.placeholder-image {
+    width: 80px;
+    height: 80px;
+    background-color: #e9ecef;
+}
+
+.pagination-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #e9ecef;
+    color: #000;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
