@@ -119,6 +119,86 @@
     background-color: #e9ecef;
     color: #000;
 }
+/*Our fashioon*/
+.our-story-section .card {
+    border: 1px solid #8B4513 !important;
+}
+
+.our-story-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+}
+/* resources/css/custom.css */
+
+.perjalanan-kami h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.timeline-wrapper {
+    position: relative;
+    padding: 0;
+}
+
+.timeline-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background-color: #8B4513;
+    margin-left: -1px;
+}
+
+.timeline-item-new {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.timeline-item-new:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.timeline-dot {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #8B4513;
+    border-radius: 50%;
+    margin-left: -10px;
+    z-index: 100;
+}
+
+.timeline-content-new {
+    width: 45%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.timeline-item-left .timeline-content-new {
+    float: left;
+}
+
+.timeline-item-right .timeline-content-new {
+    float: right;
+}
+.cara-pemesanan .flow-item p {
+    font-size: 0.9rem;
+}
+
+.video-container {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
 
 /* Footer */
 footer {
