@@ -346,10 +346,10 @@
         <div class="row align-items-center">
             <div class="col-md-6 text-white text-md-start text-center">
                 <h2 class="display-5 fw-bold mb-4">"Sudah siap tampil beda? <br>Temukan outfit terbaikmu di sini."</h2>
-                <a href="#" class="btn btn-danger btn-lg">Dapatkan Sekarang</a>
+                <a href="katalog" class="btn btn-danger btn-lg">Belanja Sekarang</a>
             </div>
             <div class="col-md-6 d-flex justify-content-center">
-                <img src="https://via.placeholder.com/400x400.png" class="img-fluid rounded-circle" alt="Model">
+               <img src="{{ asset('images/modelfooter.jpeg') }}" alt="Model">
             </div>
         </div>
     </div>
