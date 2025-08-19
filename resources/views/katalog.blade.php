@@ -45,8 +45,12 @@
                 <div class="position-relative">
                     <img src="{{ asset('images/baju.jpg') }}" class="card-img-top" alt="Produk Promo">
                     <span class="promo-badge">10% OFF</span>
+                    <div class="product-icons">
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="fas fa-shopping-cart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="far fa-heart"></i></a>
+                    </div>
                 </div>
-                <div class="card-body text-center">
+                <div class="card-body text-left">
                     <h5 class="card-title fw-bold" style="color: #8B4513;">Piyama</h5>
                     <p class="card-text fw-bold" style="color: #CC3333;">Rp. 125.000</p>
                     <a href="#" class="btn btn-danger buy-btn mt-2">Buy</a>
@@ -58,8 +62,12 @@
                 <div class="position-relative">
                     <img src="{{ asset('images/baju.jpg') }}" class="card-img-top" alt="Produk Promo">
                     <span class="promo-badge">10% OFF</span>
+                    <div class="product-icons">
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="fas fa-shopping-cart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="far fa-heart"></i></a>
+                    </div>
                 </div>
-                <div class="card-body text-center">
+                <div class="card-body text-left">
                     <h5 class="card-title fw-bold" style="color: #8B4513;">Piyama</h5>
                     <p class="card-text fw-bold" style="color: #CC3333;">Rp. 125.000</p>
                     <a href="#" class="btn btn-danger buy-btn mt-2">Buy</a>
@@ -71,8 +79,12 @@
                 <div class="position-relative">
                     <img src="{{ asset('images/baju.jpg') }}" class="card-img-top" alt="Produk Promo">
                     <span class="promo-badge">10% OFF</span>
+                    <div class="product-icons">
+                         <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="fas fa-shopping-cart"></i></a>
+                         <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="far fa-heart"></i></a>
+                    </div>
                 </div>
-                <div class="card-body text-center">
+                <div class="card-body text-left">
                     <h5 class="card-title fw-bold" style="color: #8B4513;">Piyama</h5>
                     <p class="card-text fw-bold" style="color: #CC3333;">Rp. 125.000</p>
                     <a href="#" class="btn btn-danger buy-btn mt-2">Buy</a>
@@ -93,11 +105,11 @@
                     <img src="{{ asset('images/katalog2.jpeg') }}" class="card-img-top" alt="Piyama">
                     <span class="best-seller-badge">Best Seller</span>
                     <div class="product-icons">
-                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                        <a href="#"><i class="far fa-heart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="fas fa-shopping-cart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="far fa-heart"></i></a>
                     </div>
                 </div>
-                <div class="card-body text-center">
+                <div class="card-body text-left">
                     <h5 class="card-title fw-bold" style="color: #8B4513;">Piyama</h5>
                     <p class="card-text fw-bold" style="color: #CC3333;">Rp. 125.000</p>
                     <a href="#" class="btn btn-danger buy-btn mt-2">Buy</a>
@@ -110,11 +122,11 @@
                     <img src="{{ asset('images/katalog3.jpg') }}" class="card-img-top" alt="Piyama">
                     <span class="best-seller-badge">Best Seller</span>
                     <div class="product-icons">
-                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                        <a href="#"><i class="far fa-heart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="fas fa-shopping-cart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="far fa-heart"></i></a>
                     </div>
                 </div>
-                <div class="card-body text-center">
+                <div class="card-body text-left">
                     <h5 class="card-title fw-bold" style="color: #8B4513;">Piyama</h5>
                     <p class="card-text fw-bold" style="color: #CC3333;">Rp. 125.000</p>
                     <a href="#" class="btn btn-danger buy-btn mt-2">Buy</a>
@@ -127,11 +139,11 @@
                     <img src="{{ asset('images/katalog4.jpg') }}" class="card-img-top" alt="Piyama">
                     <span class="best-seller-badge">Best Seller</span>
                     <div class="product-icons">
-                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                        <a href="#"><i class="far fa-heart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="fas fa-shopping-cart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="far fa-heart"></i></a>
                     </div>
                 </div>
-                <div class="card-body text-center">
+                <div class="card-body text-left">
                     <h5 class="card-title fw-bold" style="color: #8B4513;">Piyama</h5>
                     <p class="card-text fw-bold" style="color: #CC3333;">Rp. 125.000</p>
                     <a href="#" class="btn btn-danger buy-btn mt-2">Buy</a>
@@ -144,11 +156,11 @@
                     <img src="{{ asset('images/baju.jpg') }}" class="card-img-top" alt="Piyama">
                     <span class="best-seller-badge">Best Seller</span>
                     <div class="product-icons">
-                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                        <a href="#"><i class="far fa-heart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="fas fa-shopping-cart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="far fa-heart"></i></a>
                     </div>
                 </div>
-                <div class="card-body text-center">
+                <div class="card-body text-left">
                     <h5 class="card-title fw-bold" style="color: #8B4513;">Piyama</h5>
                     <p class="card-text fw-bold" style="color: #CC3333;">Rp. 125.000</p>
                     <a href="#" class="btn btn-danger buy-btn mt-2">Buy</a>
@@ -161,11 +173,11 @@
                     <img src="{{ asset('images/kemeja1.jpg') }}" class="card-img-top" alt="Kaos polo">
                     <span class="best-seller-badge">Best Seller</span>
                     <div class="product-icons">
-                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                        <a href="#"><i class="far fa-heart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="fas fa-shopping-cart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="far fa-heart"></i></a>
                     </div>
                 </div>
-                <div class="card-body text-center">
+                <div class="card-body text-left">
                     <h5 class="card-title fw-bold" style="color: #8B4513;">Kaos polo</h5>
                     <p class="card-text fw-bold" style="color: #CC3333;">Rp. 125.000</p>
                     <a href="#" class="btn btn-danger buy-btn mt-2">Buy</a>
@@ -178,11 +190,11 @@
                     <img src="{{ asset('images/kemeja2.jpg') }}" class="card-img-top" alt="Kemeja">
                     <span class="best-seller-badge">Best Seller</span>
                     <div class="product-icons">
-                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                        <a href="#"><i class="far fa-heart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="fas fa-shopping-cart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="far fa-heart"></i></a>
                     </div>
                 </div>
-                <div class="card-body text-center">
+                <div class="card-body text-left">
                     <h5 class="card-title fw-bold" style="color: #8B4513;">Kemeja</h5>
                     <p class="card-text fw-bold" style="color: #CC3333;">Rp. 125.000</p>
                     <a href="#" class="btn btn-danger buy-btn mt-2">Buy</a>
@@ -195,11 +207,11 @@
                     <img src="{{ asset('images/kemeja3.jpg') }}" class="card-img-top" alt="Baju tali">
                     <span class="best-seller-badge">Best Seller</span>
                     <div class="product-icons">
-                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                        <a href="#"><i class="far fa-heart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="fas fa-shopping-cart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="far fa-heart"></i></a>
                     </div>
                 </div>
-                <div class="card-body text-center">
+                <div class="card-body text-left">
                     <h5 class="card-title fw-bold" style="color: #8B4513;">Baju tali</h5>
                     <p class="card-text fw-bold" style="color: #CC3333;">Rp. 125.000</p>
                     <a href="#" class="btn btn-danger buy-btn mt-2">Buy</a>
@@ -212,11 +224,11 @@
                     <img src="{{ asset('images/kemeja4.jpg') }}" class="card-img-top" alt="Kemeja">
                     <span class="best-seller-badge">Best Seller</span>
                     <div class="product-icons">
-                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                        <a href="#"><i class="far fa-heart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="fas fa-shopping-cart"></i></a>
+                          <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="far fa-heart"></i></a>
                     </div>
                 </div>
-                <div class="card-body text-center">
+                <div class="card-body text-left">
                     <h5 class="card-title fw-bold" style="color: #8B4513;">Kemeja</h5>
                     <p class="card-text fw-bold" style="color: #CC3333;">Rp. 125.000</p>
                     <a href="#" class="btn btn-danger buy-btn mt-2">Buy</a>

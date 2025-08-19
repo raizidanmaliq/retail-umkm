@@ -71,11 +71,15 @@
     background-color: #9B4141; /* Merah */
     color: #fff;
     padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
+    border-radius: 10px;
 }
 .flash-sale-timer {
     font-weight: 700;
     color: #9B4141; /* Merah */
+}
+.countdown-timer {
+    font-size: 1.1rem;  
+    border-radius: 10px;
 }
 
 /* Penilaian Produk */
@@ -151,7 +155,7 @@
 }
 
 .timeline-item-new {
-    width: 100%;
+    width: 30%;
     margin-bottom: 40px;
 }
 
@@ -174,7 +178,7 @@
 }
 
 .timeline-content-new {
-    width: 45%;
+    width: 55%;
     padding: 20px;
     border-radius: 10px;
 }
@@ -190,14 +194,19 @@
     font-size: 0.9rem;
 }
 
+/* resources/css/custom.css */
 .video-container {
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* Rasio 16:9 (9 / 16 * 100%) */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 /* semua produk */
 
@@ -294,7 +303,27 @@
     font-weight: bold;
     border-radius: 5px;
 }
+.closing-cta {
+    position: relative;
+    overflow: hidden;
+}
 
+.closing-cta img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    max-width: none;
+}
+
+.closing-cta .row {
+    position: relative;
+    z-index: 10;
+}
+.pagination-section .page-link {
+    color: #000; 
+}
 /* Footer */
 footer {
     background-color: #343a40;

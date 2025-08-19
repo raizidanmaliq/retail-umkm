@@ -11,7 +11,6 @@
         </div>
     </section>
 
-    <hr class="container my-5">
 
     {{-- Highlight Keunggulan --}}
     <section class="mengapa-kami py-5">
@@ -63,17 +62,16 @@
             <div class="col-md-3 mb-4">
                 <div class="card h-100 shadow-sm border-0">
                     <div class="position-relative">
-                        <img src="https://via.placeholder.com/400x600.png" class="card-img-top" alt="Piyama">
+                        <img src="{{ asset('images/katalog2.jpeg') }}" class="card-img-top" alt="Piyama">
                         <div class="overlay-icons">
                             <span class="badge bg-danger">10% OFF</span>
                             <div class="icon-group">
                                 <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="fas fa-shopping-cart"></i></a>
                                 <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="far fa-heart"></i></a>
-                                <a href="#" class="btn btn-light btn-sm rounded-circle"><i class="fas fa-search"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="card-body text-center">
+                    <div class="card-body text-left">
                         <h5 class="card-title fw-bold" style="color: #8B4513;">Piyama</h5>
                         <p class="card-text fw-bold" style="color: #CC3333;">Rp. 125.000</p>
                         <a href="#" class="btn btn-danger buy-btn mt-2">Buy</a>
@@ -93,7 +91,7 @@
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h2 class="h4 fw-bold" style="color: #8B4513;">FLASH SALE</h2>
             <div class="d-flex align-items-center">
-                <span class="badge bg-danger rounded-pill p-2 fw-bold me-3">00:51:42</span>
+                <span class="countdown-timer badge bg-danger rounded-pill p-3 me-3 fw-bold">00:51:42</span>
                 <a href="#" class="text-dark text-decoration-none fw-bold">Lihat Semua →</a>
             </div>
         </div>
@@ -102,14 +100,18 @@
             <div class="col-md-6 mb-4">
                 <div class="card h-100 shadow-sm border-0">
                     <div class="position-relative">
-                        <img src="https://via.placeholder.com/400x600.png" class="card-img-top" alt="Tas putih">
+                        <img src="{{ asset('images/explore.jpeg') }}" class="card-img-top" alt="Bags">
                         <div class="overlay-icons">
                             <span class="badge bg-danger rounded-pill p-2 position-absolute top-0 end-0 m-2 fw-bold">FLASH SALE</span>
                         </div>
                     </div>
-                    <div class="card-body text-center">
-                        <h5 class="card-title fw-bold" style="color: #8B4513;">Tas putih</h5>
+                    <div class="card-body text-left">
+                        <h5 class="card-title fw-bold" style="color: #8B4513;">Jane</h5>
                         <p class="card-text fw-bold" style="color: #CC3333;">Rp. 100.000</p>
+                        <div class="icon-group">
+                                <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="btn btn-light btn-sm rounded-circle mb-2"><i class="far fa-heart"></i></a>
+                            </div>
                         <a href="#" class="btn btn-danger buy-btn mt-2">Buy</a>
                     </div>
                 </div>
@@ -118,9 +120,6 @@
         </div>
     </div>
 </section>
-
-    {{-- Penilaian Produk --}}
-    <hr class="container my-5">
 
     {{-- Penilaian Produk --}}
     <section class="penilaian-produk py-5">
@@ -172,14 +171,18 @@
             </div>
         </div>
         
-        <div class="d-flex justify-content-center mt-4">
-            <a href="#" class="btn btn-light me-2"><i class="fas fa-chevron-left"></i></a>
-            <a href="#" class="btn btn-light active me-2">1</a>
-            <a href="#" class="btn btn-light me-2">2</a>
-            <a href="#" class="btn btn-light me-2">3</a>
-            <a href="#" class="btn btn-light me-2">4</a>
-            <a href="#" class="btn btn-light me-2"><i class="fas fa-chevron-right"></i></a>
-        </div>
+        <section class="pagination-section py-4">
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="#"><i class="fas fa-chevron-left"></i></a></li>
+            <li class="page-item active"><a class="page-link" href="#" style="background-color: #CC3333; border-color: #CC3333; color: white;">1</a></li>
+            <li class="page-item"><a class="page-link" href="#" style="background-color: #E9ECEF; border-color: #E9ECEF; color: black;">2</a></li>
+            <li class="page-item"><a class="page-link" href="#" style="background-color: #E9ECEF; border-color: #E9ECEF; color: black;">3</a></li>
+            <li class="page-item"><a class="page-link" href="#" style="background-color: #E9ECEF; border-color: #E9ECEF; color: black;">4</a></li>
+            <li class="page-item"><a class="page-link" href="#"><i class="fas fa-chevron-right"></i></a></li>
+        </ul>
+    </nav>
+</section>
     </div>
 </section>
 <section class="our-story-section py-5">
@@ -203,7 +206,7 @@
             </div>
             <div class="col-md-6">
                 <div class="card p-4 h-100 shadow-sm" style="border: 2px solid #8B4513;">
-                     <img src="{{ asset('images/joko.jpg') }}" alt="Bapak">
+                     <img src="{{ asset('images/joko.jpg') }}"  alt="Bapak">
                 </div>
             </div>
         </div>
@@ -211,38 +214,38 @@
 </section>
 <section class="perjalanan-kami py-5">
     <div class="container text-center">
-        <h2 class="mb-5" style="color: #8B4513;">Perjalanan Kami</h2>
-        <div class="timeline-wrapper">
-            <div class="timeline-item-new timeline-item-left">
+        <h2 class="mb-5" style="color: #8B4513; font-family: 'Playfair Display', serif;">Perjalanan Kami</h2>
+        <div class="timeline">
+            <div class="timeline-item timeline-left">
                 <div class="timeline-dot"></div>
-                <div class="timeline-content-new card p-4 mb-4 shadow-sm" style="border: 2px solid #8B4513;">
+                <div class="timeline-content card p-4 shadow-sm" style="border: 2px solid #8B4513;">
                     <h5 class="fw-bold" style="color: #8B4513;">2019 Awal Mula</h5>
                     <p>
                         Dimulai dari sebuah kafe kecil di Jakarta, Sarah dan dua rekannya memutuskan untuk mengubah passion mereka terhadap desain menjadi sebuah bisnis yang dapat membantu UMKM lokal.
                     </p>
                 </div>
             </div>
-            <div class="timeline-item-new timeline-item-right">
+            <div class="timeline-item timeline-right">
                 <div class="timeline-dot"></div>
-                <div class="timeline-content-new card p-4 mb-4 shadow-sm" style="border: 2px solid #8B4513;">
+                <div class="timeline-content card p-4 shadow-sm" style="border: 2px solid #8B4513;">
                     <h5 class="fw-bold" style="color: #8B4513;">2020 Momentum Pertama</h5>
                     <p>
                         Pandemi justru menjadi berkah tersembunyi. Banyak bisnis yang membutuhkan transformasi digital, dan kami siap membantu dengan solusi desain yang terjangkau namun berkualitas.
                     </p>
                 </div>
             </div>
-            <div class="timeline-item-new timeline-item-left">
+            <div class="timeline-item timeline-left">
                 <div class="timeline-dot"></div>
-                <div class="timeline-content-new card p-4 mb-4 shadow-sm" style="border: 2px solid #8B4513;">
+                <div class="timeline-content card p-4 shadow-sm" style="border: 2px solid #8B4513;">
                     <h5 class="fw-bold" style="color: #8B4513;">2023 Awal Kemajuan</h5>
                     <p>
                         Tim berkembang menjadi 15 orang talenta terbaik dari berbagai disiplin ilmu. Kami pindah ke studio yang lebih besar dan mulai mengerjakan proyek-proyek enterprise.
                     </p>
                 </div>
             </div>
-            <div class="timeline-item-new timeline-item-right">
+            <div class="timeline-item timeline-right">
                 <div class="timeline-dot"></div>
-                <div class="timeline-content-new card p-4 mb-4 shadow-sm" style="border: 2px solid #8B4513;">
+                <div class="timeline-content card p-4 shadow-sm" style="border: 2px solid #8B4513;">
                     <h5 class="fw-bold" style="color: #8B4513;">2025 Bertahan</h5>
                     <p>
                         Dengan lebih dari 150 proyek sukses, kami kini fokus pada inovasi dan sustainability dalam desain, sambil terus mempertahankan nilai-nilai human-centered design.
@@ -279,10 +282,10 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="video-container" style="background-image: url('https://via.placeholder.com/600x400.png');">
-                        <i class="fas fa-play-circle fa-5x text-white"></i>
-                    </div>
-                </div>
+    <div class="video-container">
+        <iframe width="600" height="400" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
             </div>
         </div>
     </div>
@@ -349,8 +352,8 @@
                 <a href="katalog" class="btn btn-danger btn-lg">Belanja Sekarang</a>
             </div>
             <div class="col-md-6 d-flex justify-content-center">
-               <img src="{{ asset('images/modelfooter.jpeg') }}" alt="Model">
-            </div>
+    
+</div>
         </div>
     </div>
 </section>
