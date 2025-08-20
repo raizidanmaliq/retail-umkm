@@ -10,3 +10,8 @@ Route::get('/', function () {
 Route::get('/katalog', function () {
     return view('katalog');
 });
+
+// admin dashboard
+Route::get('/admin/dashboard', function () {
+    return view('admin.dashboard');
+});

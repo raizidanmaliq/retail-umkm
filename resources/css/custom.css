@@ -165,17 +165,6 @@
     clear: both;
 }
 
-.timeline-dot {
-    position: absolute;
-    top: 15px;
-    left: 50%;
-    width: 20px;
-    height: 20px;
-    background-color: #8B4513;
-    border-radius: 50%;
-    margin-left: -10px;
-    z-index: 100;
-}
 
 .timeline-content-new {
     width: 55%;

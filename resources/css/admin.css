@@ -1,0 +1,105 @@
+/* resources/css/admin.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* resources/css/admin.css */
+
+.main-content {
+    padding: 20px;
+    background-color: #f8f9fa;
+    max-width: 1200px; /* Menetapkan lebar maksimum */
+    margin: 0 auto; /* Menengahkan konten */
+}
+.sidebar {
+    width: 250px;
+    background-color: #9B4141; 
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+}
+
+.sidebar .nav-link {
+    color: #d1c7c7;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #6C3D3D;
+}
+
+.sidebar .nav-link.active {
+    background-color: #8B4513; /* Warna highlight */
+    color: white;
+}
+/* resources/css/admin.css */
+
+.card .table-responsive {
+  
+    min-height: auto;
+}
+
+.card-body {
+    padding: 0;
+}
+
+
+.card-body {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .table-responsive {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.table td, .table th {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card-header h5 {
+    font-family: 'Playfair Display', serif;
+}
+/* resources/css/admin.css */
+
+.card-body {
+    padding-bottom: 0;
+}
+
+.card-footer {
+    padding-top: 0;
+    background-color: #f8f9fa;
+    border-top: none;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.table img {
+    border: 1px solid #ddd;
+}
+.pagination .page-link {
+    color: #000;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #CC3333; 
+    border-color: #CC3333; 
+    color: #fff; 
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #000;
+}
