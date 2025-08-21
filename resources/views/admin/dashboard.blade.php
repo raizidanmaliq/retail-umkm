@@ -55,7 +55,7 @@
 
 {{-- Tombol Aksi --}}
 <div class="d-flex justify-content-between align-items-center mb-4">
-    <a href="#" class="btn btn-success me-2"><i class="fas fa-plus me-2"></i>Tambah Produk</a>
+    <a href="/admin/tambah-produk" class="btn btn-success me-2"><i class="fas fa-plus me-2"></i>Tambah Produk</a>
     <a href="#" class="btn btn-info text-white"><i class="fas fa-box me-2"></i>Stock opname</a>
 </div>
 
@@ -124,7 +124,19 @@
                         <td>Rp. 85.000</td>
                         <td>Rp. 100.000</td>
                         <td><span class="badge bg-success">Aktif</span></td>
-                        <td><a href="#"><i class="fas fa-edit"></i></a></td>
+                        <td><div class="dropdown">
+                                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Edit Produk</a></li>
+                                    <li><a class="dropdown-item" href="#">Tambah Stok</a></li>
+                                    <li><a class="dropdown-item" href="#">Koreksi Stok</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item text-danger" href="#">Hapus Produk</a></li>
+                                </ul>
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>
@@ -141,7 +153,19 @@
                         <td>Rp. 85.000</td>
                         <td>Rp. 100.000</td>
                         <td><span class="badge bg-success">Aktif</span></td>
-                        <td><a href="#"><i class="fas fa-edit"></i></a></td>
+                        <td><div class="dropdown">
+                                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Edit Produk</a></li>
+                                    <li><a class="dropdown-item" href="#">Tambah Stok</a></li>
+                                    <li><a class="dropdown-item" href="#">Koreksi Stok</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item text-danger" href="#">Hapus Produk</a></li>
+                                </ul>
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>
@@ -158,7 +182,19 @@
                         <td>Rp. 85.000</td>
                         <td>Rp. 100.000</td>
                         <td><span class="badge bg-success">Aktif</span></td>
-                        <td><a href="#"><i class="fas fa-edit"></i></a></td>
+                        <td><div class="dropdown">
+                                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Edit Produk</a></li>
+                                    <li><a class="dropdown-item" href="#">Tambah Stok</a></li>
+                                    <li><a class="dropdown-item" href="#">Koreksi Stok</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item text-danger" href="#">Hapus Produk</a></li>
+                                </ul>
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>
@@ -175,7 +211,19 @@
                         <td>Rp. 85.000</td>
                         <td>Rp. 100.000</td>
                         <td><span class="badge bg-success">Aktif</span></td>
-                        <td><a href="#"><i class="fas fa-edit"></i></a></td>
+                        <td><div class="dropdown">
+                                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Edit Produk</a></li>
+                                    <li><a class="dropdown-item" href="#">Tambah Stok</a></li>
+                                    <li><a class="dropdown-item" href="#">Koreksi Stok</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item text-danger" href="#">Hapus Produk</a></li>
+                                </ul>
+                            </div>
+                        </td>
                     </tr>
                 </tbody>
             </table>

@@ -15,3 +15,8 @@ Route::get('/katalog', function () {
 Route::get('/admin/dashboard', function () {
     return view('admin.dashboard');
 });
+
+// nambah produk
+Route::get('/admin/tambah-produk', function () {
+    return view('admin.tambah_produk');
+});

@@ -3,11 +3,25 @@
 
 /* Hero Section */
 .hero-section {
-    background-color: #f7d2d3; 
+
+    background-color: #FFFFFF; 
+    background-size: cover;
+    background-position: center;
     color: #000;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    min-height: 500px;
 }
+.col-md-6  .img-fluid {
+    position: absolute;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 150%; 
+    transform: translateX(+25%) translateY(20px); 
+    object-fit: cover;
+}
+
 .navbar-brand{
     font-family: 'Playfair Display';
     color: #9B4141;
@@ -59,23 +73,23 @@
     font-family: 'Playfair Display';
 }
 .card-text.harga {
-    color: #9B4141; /* Merah untuk harga */
+    color: #9B4141; 
     font-weight: 700;
 }
 
 /* Flash Sale */
 .flash-sale-section {
-    background-color: #f8f9fa; /* Warna abu-abu muda */
+    background-color: #f8f9fa;
 }
 .flash-sale-badge {
-    background-color: #9B4141; /* Merah */
+    background-color: #9B4141; 
     color: #fff;
     padding: 0.5rem 1rem;
     border-radius: 10px;
 }
 .flash-sale-timer {
     font-weight: 700;
-    color: #9B4141; /* Merah */
+    color: #9B4141; 
 }
 .countdown-timer {
     font-size: 1.1rem;  
@@ -89,7 +103,7 @@
 .rating-item {
     font-size: 0.9rem;
 }
-/* resources/css/custom.css */
+
 .penilaian-produk {
     font-family: 'Playfair Display';
 }
@@ -132,7 +146,6 @@
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
 }
-/* resources/css/custom.css */
 
 .perjalanan-kami h2 {
     font-family: 'Playfair Display', serif;
@@ -187,7 +200,7 @@
 .video-container {
     position: relative;
     width: 100%;
-    padding-top: 56.25%; /* Rasio 16:9 (9 / 16 * 100%) */
+    padding-top: 56.25%; 
 }
 
 .video-container iframe {

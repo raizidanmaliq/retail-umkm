@@ -3,13 +3,26 @@
 @section('content')
 <main>
     {{-- Hero Section --}}
-    <section class="hero-section d-flex align-items-center justify-content-center text-center text-white py-5">
-        <div class="container">
-            <h1 class="display-4 fw-bold">Belanja Mudah<br>Harga Bersahabat,<br>Kualitas Terjamin</h1>
-            <p class="lead mt-3">Temukan produk terbaik dengan harga yang tidak akan menguras kantong Anda.</p>
-            <a href="#best-seller" class="btn btn-warning">Register</a>
+    <section class="hero-section text-md-start py-5">
+    <div class="container d-flex align-items-center h-100">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="display-2 fw-bold mb-4" style="font-family: 'Playfair Display', serif;">
+                    Belanja Mudah<br>
+                    <span style="color: #CC3333;">Harga Bersahabat,</span><br>
+                    <span style="color: #CC3333;">Kualitas Terjamin</span>
+                </h1>
+                <p class="lead" style="color: #555;">
+                    Temukan produk terbaik dengan harga yang tidak akan menguras kantong Anda.
+                </p>
+                <a href="#" class="btn btn-danger btn-lg mt-4" style="background-color: #CC3333;">Register</a>
+            </div>
+            <div class="col-md-6">
+                <img src ="{{ asset('images/baru2.png') }}" alt="Hero" class="img-fluid">
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
 
     {{-- Highlight Keunggulan --}}
@@ -19,7 +32,6 @@
         <div class="row">
             <div class="col-md-3 mb-4">
                 <div class="icon-container mb-3">
-                    {{-- Ganti ikon ini dengan ikon yang sesuai --}}
                     <i class="fas fa-tshirt fa-3x" style="color: #8B4513;"></i>
                 </div>
                 <h5 style="color: #8B4513;">Produk Original</h5>
