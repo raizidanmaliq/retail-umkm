@@ -78,7 +78,7 @@
 </div>
 
 {{-- Daftar Produk --}}
-<div class="card shadow-sm">
+<div class="card shadow-sm custom-stok-card">
     <div class="card-header d-flex justify-content-between align-items-center">
         <h5 class="mb-0" style="font-family: 'Playfair Display', serif;">Daftar Stok Produk</h5>
         <div class="d-flex">
@@ -96,7 +96,7 @@
     </div>
     <div class="card-body">
         <div class="table-responsive">
-            <table class="table table-hover">
+            <table class="table table-hover  custom-stok-table">
                 <thead>
                     <tr>
                         <th>Nama Produk</th>
