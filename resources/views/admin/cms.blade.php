@@ -168,18 +168,27 @@
                     <tr>
                         <td>Samsul</td>
                         <td>"Mantap sekali barangnya"</td>
-                        <td>
-                            <button class="btn btn-info btn-sm">Edit</button>
-                            <button class="btn btn-danger btn-sm">Hapus</button>
-                        </td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" title="Edit">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                        <button class="btn btn-sm btn-danger" title="Hapus">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </td>
+
                     </tr>
                     <tr>
                         <td>Alex</td>
                         <td>"Bagus euy barangnya"</td>
-                        <td>
-                            <button class="btn btn-info btn-sm">Edit</button>
-                            <button class="btn btn-danger btn-sm">Hapus</button>
-                        </td>
+                         <td>
+                        <button class="btn btn-sm btn-primary" title="Edit">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                        <button class="btn btn-sm btn-danger" title="Hapus">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </td>
                     </tr>
                 </tbody>
             </table>

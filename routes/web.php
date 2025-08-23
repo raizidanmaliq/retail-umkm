@@ -21,7 +21,7 @@ Route::get('/admin/tambah-produk', function () {
     return view('admin.tambah_produk');
 });
 
-// Admin Pemesanan Barang
+// Admin Pemesanan bARANG
 Route::get('/admin/pemesanan-barang', function () {
     return view('admin.pemesanan_barang');
 });

@@ -361,7 +361,7 @@
         <div class="row align-items-center">
             <div class="col-md-6 text-white text-md-start text-center">
                 <h2 class="display-5 fw-bold mb-4">"Sudah siap tampil beda? <br>Temukan outfit terbaikmu di sini."</h2>
-                <a href="katalog" class="btn btn-danger btn-lg">Belanja Sekarang</a>
+                <a href="katalog" class="btn btn-danger btn-lg">Lihat Katalog</a>
             </div>
             <div class="col-md-6 d-flex justify-content-center">
     
