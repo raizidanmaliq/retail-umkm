@@ -334,3 +334,475 @@ footer {
     background-color: #343a40;
     color: #fff;
 }
+
+/* Responsive buat mobile */
+  @media (max-width: 767.98px) {
+  .hero-section .img-fluid {
+    display: none !important;
+  
+}
+  .hero-section .col-md-6 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 0 !important;
+    position: static !important;
+    text-align: center !important;
+     padding-top: 4.0rem !important;
+  }
+  .hero-section h1,
+  .hero-section .display-2,
+  .hero-section .display-4 {
+    font-size: 2rem !important;
+    line-height: 1.2;
+    text-align: center !important;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+  .hero-section p.lead {
+    text-align: center !important;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .hero-section .btn-lg {
+    width: 100%;
+    max-width: 300px;
+    margin: 1.5rem auto 0 auto;
+    display: block;
+    font-size: 1rem;
+  }
+  
+  .hero-section .row {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .mengapa-kami .col-md-3,
+  .mengapa-kami .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .mengapa-kami .icon-container {
+    margin-bottom: 0.5rem;
+  }
+  .card-img-top {
+    height: 150px !important;
+  }
+  .card {
+    margin-bottom: 1.5rem;
+  }
+  #best-seller .col-12,
+  #best-seller .col-sm-6,
+  #best-seller .col-md-3 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 1rem;
+  }
+  #best-seller .card {
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+    padding: 0.5rem 0.2rem;
+  }
+  #best-seller .card-img-top {
+    height: 110px !important;
+  }
+  #best-seller .card-title {
+    font-size: 1rem;
+  }
+  #best-seller .card-text {
+    font-size: 0.95rem;
+  }
+  #best-seller .buy-btn {
+    font-size: 0.95rem;
+    padding: 6px 10px;
+  }
+  
+  .flash-sale-section .d-flex {
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 0.5rem !important;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+  .flash-sale-section .h4,
+  .flash-sale-section h2 {
+    font-size: 1.1rem !important;
+    margin-bottom: 0 !important;
+    white-space: nowrap;
+  }
+  .flash-sale-section .countdown-timer {
+    font-size: 0.95rem !important;
+    padding: 0.5rem 0.8rem !important;
+    margin-right: 0.5rem !important;
+  }
+  .flash-sale-section a.text-dark {
+    font-size: 0.95rem !important;
+    white-space: nowrap;
+  }
+  .flash-sale-section .row {
+    margin-left: -4px;
+    margin-right: -4px;
+  }
+  .flash-sale-section .col-12,
+  .flash-sale-section .col-md-6 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-bottom: 1rem;
+  }
+  .flash-sale-section .card {
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+    padding: 0.5rem 0.2rem;
+  }
+  .flash-sale-section .card-img-top {
+    height: 110px !important;
+  }
+  .flash-sale-section .card-title {
+    font-size: 1rem;
+  }
+  .flash-sale-section .card-text {
+    font-size: 0.95rem;
+  }
+  .flash-sale-section .buy-btn {
+    font-size: 0.95rem;
+    padding: 6px 10px;
+  }
+
+  .timeline-content,
+  .timeline-content-new {
+    width: 100% !important;
+    float: none !important;
+    padding: 10px !important;
+  }
+  .timeline-item-new,
+  .timeline-item {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  .penilaian-produk h2 {
+    font-size: 1.3rem !important;
+    margin-bottom: 1.2rem;
+  }
+  
+  .penilaian-produk .card {
+    padding: 1rem 0.7rem !important;
+    border-radius: 10px;
+    font-size: 0.97rem;
+    margin-bottom: 1.2rem;
+  }
+  .penilaian-produk .card-body,
+  .penilaian-produk .row,
+  .penilaian-produk .col-12,
+  .penilaian-produk .col-md-2,
+  .penilaian-produk .col-md-10 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .penilaian-produk img.rounded-circle {
+    width: 55px !important;
+    height: 55px !important;
+    margin-bottom: 0.5rem;
+  }
+  .penilaian-produk h5 {
+    font-size: 1rem !important;
+    margin-bottom: 0.2rem;
+  }
+  .penilaian-produk .text-warning i {
+    font-size: 0.95rem !important;
+  }
+  .penilaian-produk .placeholder-image {
+    width: 48px !important;
+    height: 48px !important;
+    margin-right: 0.3rem !important;
+    margin-bottom: 0.3rem !important;
+    border-radius: 8px;
+  }
+  .penilaian-produk .badge {
+    font-size: 0.85rem !important;
+    padding: 0.3em 0.7em !important;
+  }
+  .pagination-section .pagination {
+    font-size: 0.95rem !important;
+  }
+  .penilaian-produk h2 {
+    font-size: 1.05rem !important;
+    margin-bottom: 0.7rem !important;
+  }
+  .penilaian-produk .card {
+    padding: 0.6rem 0.4rem !important;
+    border-radius: 8px !important;
+    font-size: 0.85rem !important;
+    margin-bottom: 0.7rem !important;
+  }
+  .penilaian-produk .card-body,
+  .penilaian-produk .row,
+  .penilaian-produk .col-12,
+  .penilaian-produk .col-md-2,
+  .penilaian-produk .col-md-10 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .penilaian-produk img.rounded-circle {
+    width: 38px !important;
+    height: 38px !important;
+    margin-bottom: 0.3rem !important;
+  }
+  .penilaian-produk h5 {
+    font-size: 0.92rem !important;
+    margin-bottom: 0.1rem !important;
+  }
+  .penilaian-produk .text-warning i {
+    font-size: 0.8rem !important;
+  }
+  .penilaian-produk .placeholder-image {
+    width: 32px !important;
+    height: 32px !important;
+    margin-right: 0.2rem !important;
+    margin-bottom: 0.2rem !important;
+    border-radius: 6px !important;
+  }
+  .penilaian-produk .badge {
+    font-size: 0.7rem !important;
+    padding: 0.18em 0.5em !important;
+    border-radius: 12px !important;
+  }
+  .pagination-section .pagination {
+    font-size: 0.85rem !important;
+  }
+  .our-story-section .card img {
+    width: 100%;
+    height: auto;
+  }
+  .footer .row > div {
+    text-align: center !important;
+    margin-bottom: 1.5rem;
+  }
+  .video-container {
+    padding-top: 56.25%;
+    height: 0;
+  }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .cara-pemesanan .row {
+    flex-direction: column;
+  }
+  .cara-pemesanan .col-md-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .closing-cta .row {
+    flex-direction: column;
+    text-align: center;
+  }
+    
+    .semua-produk .col-md-3,
+    .semua-produk .col-12,
+    .semua-produk .col-sm-6 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 1rem;
+    }
+    .semua-produk .card {
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+    padding: 0.5rem 0.2rem;
+    }
+    .semua-produk .card-img-top {
+    height: 110px !important;
+    }
+
+    .promo-spesial .col-md-4,
+    .promo-spesial .col-12,
+    .promo-spesial .col-sm-6 {
+    flex: 0 0 33.3333% !important;
+    max-width: 33.3333% !important;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 1rem;
+    }
+    .promo-spesial .card {
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+    padding: 0.4rem 0.1rem;
+    }
+    .promo-spesial .card-img-top {
+    height: 90px !important;
+    }
+    
+  .promo-spesial .col-md-4,
+  .promo-spesial .col-12,
+  .promo-spesial .col-sm-6 {
+    flex: 0 0 33.3333% !important;
+    max-width: 33.3333% !important;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 1rem;
+  }
+  .promo-spesial .card {
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+    padding: 0.4rem 0.1rem;
+    position: relative;
+    overflow: visible !important;
+  }
+  .promo-spesial .card-img-top {
+    height: 90px !important;
+    object-fit: cover !important;
+    border-radius: 6px 6px 0 0 !important;
+    margin-bottom: 0.5rem !important;
+    z-index: 1;
+    position: relative;
+  }
+
+  .promo-spesial .badge,
+  .promo-spesial .promo-badge,
+  .promo-spesial .badge.bg-danger {
+    font-size: 0.65rem !important;
+    padding: 0.15em 0.5em !important;
+    border-radius: 8px !important;
+    position: absolute !important;
+    top: 8px !important;
+    left: 8px !important;
+    z-index: 2;
+    opacity: 0.95;
+    background: #CC3333 !important;
+    color: #fff !important;
+  }
+  
+  .promo-spesial .icon-group {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0.2rem !important;
+    position: absolute !important;
+    top: 8px !important;
+    right: 8px !important;
+    left: auto !important;
+    z-index: 2;
+    background: rgba(255,255,255,0.85);
+    border-radius: 12px;
+    padding: 1px 3px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  }
+  .promo-spesial .icon-group a {
+    width: 22px !important;
+    height: 22px !important;
+    font-size: 0.9rem !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
+  }
+  .promo-spesial .card-title {
+    margin-top: 0.7rem !important;
+    font-size: 0.93rem !important;
+    text-align: center !important;
+    min-height: 1.2em;
+  }
+  .promo-spesial .card-text {
+    font-size: 0.85rem !important;
+    text-align: center !important;
+    margin-bottom: 0.3rem !important;
+  }
+  @media (max-width: 991.98px) {
+  /* Navbar collapse muncul di bawah hamburger */
+  .navbar-collapse {
+    width: 100% !important;
+    margin-top: 0.5rem !important;
+    background: #fff !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    border-radius: 0 0 12px 12px;
+    padding: 0.5rem 0.7rem 0.7rem 0.7rem;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 99;
+  }
+  .navbar .container {
+    position: relative;
+  }
+  /* Kategori sejajar ke kanan */
+  .navbar-nav {
+    flex-direction: row !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    width: 100%;
+    gap: 0.5rem;
+    margin-bottom: 0 !important;
+  }
+  .navbar-nav .nav-link {
+    font-size: 1rem !important;
+    padding: 0.5rem 0.9rem !important;
+    color: #9B4141 !important;
+    font-weight: 500;
+    border-radius: 16px !important;
+    background: #f8f9fa !important;
+    margin-right: 0.2rem !important;
+    text-align: center;
+    transition: background 0.2s;
+  }
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link:hover {
+    background: #9B4141 !important;
+    color: #fff !important;
+  }
+  @media (max-width: 991.98px) {
+  .navbar-nav {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+    gap: 3.5rem;
+  }
+  .navbar-nav .nav-link {
+    flex: 0 1 auto !important;
+    min-width: 80px;
+    max-width: 120px;
+    text-align: center !important;
+    font-size: 1rem !important;
+    padding: 0.6rem 0.8rem !important;
+    color: #9B4141 !important;
+    font-weight: 500;
+    border-radius: 12px !important;
+    background: #f8f9fa !important;
+    margin: 0 0.15rem !important;
+    border: none !important;
+    transition: background 0.2s;
+  }
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link:hover {
+    background: #9B4141 !important;
+    color: #fff !important;
+  }
+  
+  
+}
+}
+  
+}

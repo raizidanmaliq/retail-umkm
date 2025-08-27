@@ -395,7 +395,7 @@
         </div>
         <hr class="mt-4" style="border-color: rgba(255,255,255,0.2);">
         <div class="text-center mt-3">
-            <p>&copy; 2025 Example Text. All image</p>
+            <p>&copy; {{ date('Y') }} Ahlinya Retail. All rights reserved.</p>
         </div>
     </div>
 </footer>
