@@ -10,6 +10,15 @@
     color: #000;
     min-height: 500px;
 }
+/* Perbesar tombol Register di hero section */
+.hero-section .btn.btn-danger.btn-lg {
+  font-size: 1.0rem !important;
+  padding: 1rem 2.5rem !important;
+  border-radius: 1.5rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 12px rgba(204,51,51,0.12);
+}
 
 .col-md-6  .img-fluid {
     position: absolute;
